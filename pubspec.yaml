@@ -4,13 +4,17 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.5.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  geolocator: ^3.0.1
+  http: ^0.12.1
+  flutter_spinkit: ^3.1.0
+  firebase_admob: ^0.9.3+2
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +27,7 @@ flutter:
   - images/
 
   fonts:
-  - family: Spartan MB
+  - family: Mont-Regular
     fonts:
-    - asset: fonts/SpartanMB-Black.otf
-      weight: 900
+    - asset: fonts/Mont-Regular.otf
+      weight: 700
